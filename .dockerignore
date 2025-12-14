@@ -1,0 +1,66 @@
+# .NET build artifacts
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# IDE and editor files
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Git files
+.git/
+.gitignore
+.gitattributes
+
+# Docker files (not needed in container)
+Dockerfile*
+.dockerignore
+
+# Documentation
+README.md
+*.md
+
+# Logs and temp files
+logs/
+*.log
+tmp/
+temp/
+
+# Http client environment files (may contain sensitive data)
+*.http.env.json
+http-client.private.env.json
+
+# Rider settings
+*.DotSettings.user

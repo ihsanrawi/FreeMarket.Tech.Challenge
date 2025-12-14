@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  freemarket-api:
+    build: .
+    ports:
+      - "8080:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
+    container_name: freemarket-basket-api
+    restart: unless-stopped

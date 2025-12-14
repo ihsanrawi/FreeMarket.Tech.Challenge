@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeMarket.Tech.Challenge.Api", "FreeMarket.Tech.Challenge.Api\FreeMarket.Tech.Challenge.Api.csproj", "{9AE56524-61EC-496E-8ACB-9CD0DD7757BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeMarket.Tech.Challenge.Api.Tests", "FreeMarket.Tech.Challenge.Api.Tests\FreeMarket.Tech.Challenge.Api.Tests.csproj", "{24E6C592-1AB7-4C82-A36E-3161B32E1FB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{7C2D14F1-FB92-4F23-967F-68172D024B1C}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+		README.md = README.md
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AE56524-61EC-496E-8ACB-9CD0DD7757BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AE56524-61EC-496E-8ACB-9CD0DD7757BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AE56524-61EC-496E-8ACB-9CD0DD7757BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AE56524-61EC-496E-8ACB-9CD0DD7757BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24E6C592-1AB7-4C82-A36E-3161B32E1FB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24E6C592-1AB7-4C82-A36E-3161B32E1FB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24E6C592-1AB7-4C82-A36E-3161B32E1FB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24E6C592-1AB7-4C82-A36E-3161B32E1FB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
