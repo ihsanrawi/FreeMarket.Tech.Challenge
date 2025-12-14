@@ -6,6 +6,7 @@ A comprehensive shopping basket API built with .NET 9.0, implementing CQRS patte
 ### Improvement I would do if I have more time
 - Database migrations and indexing for frequently accessed data
 - Proper resource disposal and connection management
+- Request validation
 - Implement authentication and authorization
 - Caching strategies for discount codes and product data
 - Rate limiting, throttling and appropriate CORS policies
